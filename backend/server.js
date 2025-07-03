@@ -14,8 +14,6 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
-const cors = require('cors');
-
 const allowedOrigins = [
   'http://localhost:5173',
   'https://task-manager-frontend-two-psi.vercel.app/'
